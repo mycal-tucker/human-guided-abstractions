@@ -1,0 +1,21 @@
+seed: 0
+task: 'fashion_mnist'
+training:
+  batch_size: 64
+  lr: 0.001
+  num_epochs: 70
+  burnin: 20
+model:
+  class: VAE
+  enc_dim: 32
+  num_protos: None
+  num_subprotos: None
+  project_protos: False
+weights:
+  kl_weight: 0.01
+  entropy_weight: 0.0
+  utility_weight: 10.0
+  recons_weight: 10.0
+  kl_incr: 0.5
+  entropy_incr: 0.0
+  recons_incr: 0.0

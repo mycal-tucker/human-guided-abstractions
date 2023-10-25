@@ -1,0 +1,21 @@
+seed: 0
+task: 'fashion_mnist'
+training:
+  batch_size: 64
+  lr: 0.001
+  num_epochs: 200
+  burnin: 40
+model:
+  class: VQVIBC
+  enc_dim: 32
+  num_protos: 1000
+  num_subprotos: 1
+  project_protos: False
+weights:
+  kl_weight: 0.0
+  entropy_weight: 0.001
+  utility_weight: 10.0
+  recons_weight: 10.0
+  kl_incr: 0.0
+  entropy_incr: 0.2
+  recons_incr: 0.0
