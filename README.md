@@ -108,7 +108,6 @@ If you find this code useful, please cite our paper:
   title={Human-Guided Complexity-Controlled Abstractions},
   author={Andi Peng* and Mycal Tucker* and  Eoin Kenny and Noga Zaslavsky and Pulkit Agrawal and Julie Shah},
   booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-  editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
   year={2023},
   url={https://openreview.net/forum?id=tSEeRl7ACo}
 }
